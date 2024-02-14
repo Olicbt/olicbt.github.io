@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Oliver Gligorovski</title>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="IE=edge, chrome=1"> <!-- for internet explorer -->
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- mobile device optimized -->
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/lity.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700|Muli:300,400" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" >
+        <link rel="stylesheet" href="css/style.css">
+        <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"</script>
+        <![endif]-->
+    </head>
+    <body>
+        <section id="hero">
+            <div class="container">
+                <div class="site-header">
+                    <div class="header-logo">
+                        <a href="#" class="site-name">Oliver <span>Gligorovski</span></a>
+                    </div>
+                    <span class="flex-spacer"></span> <!-- IE WORKAROUND -->
+                    <nav class="site-nav">
+                        <ul>
+                            <!--<li><a href="#">Home</a></li>-->
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a class="contact-me btn-primary" href="mailto:oli.gligorovski@gmail.com">Contact Me</a></li>
+                        </ul>
+                    </nav>
+                    <!-- Mobile hidden nav -->
+                    <nav class="mobile-nav overlay">
+                        <div class="nav-burger toggle" id="toggle">
+                            <span class="bar top"></span>
+                            <span class="bar middle"></span>
+                            <span class="bar bottom"></span>
+                        </div>
+                        <ul class="nav-overlay" id="overlay">
+                            <!--<li><a href="#">Home</a></li>-->
+                            <li><a href="#about" class="toggle">About</a></li>
+                            <li><a href="#portfolio" class="toggle">Portfolio</a></li>
+                            <li><a href="mailto:oli.gligorovski@gmail.com" class="toggle">Contact Me</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="hero-content">
+                    <h1 class="cta">Hi. I’m Oliver Gligorovski</h1>
+                    <p>Full-Stack Developer</p>
+                    <a href="#portfolio" class="button-cta">View My Portfolio</a>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="container">
+                <div class="about-pic">
+                    <img src="img/oli.jpg" class="about-img" alt="Oli slika" style="height:300px; width:200px">
+                </div>
+                <div class="about-content">
+                    <h2>About</h2>
+                    <p class="mg-bot-20">I’m Oliver Gligorovski. I’m an Full-Stack developer based in Bitola, Macedonia. I create <span>website solutions</span> for different types of businesses.</p>
+                    <p class="mg-bot-20">I love to learn things about <span>Web Development</span>, specially on HTML5/CSS3 and PHP. Right now I’m still learning Laravel, and other JS frameworks and looking forward on creating Web Applications sometime in the future.</p>
+                    <p>I always want to learn new skills and upgrade my knowledge. I love sports and playing together with my friends.</p>
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <div class="container">
+                <div class="skills-content">
+                    <h2>Skills</h2>
+                    <p class="mg-bot-20">I’m a Full-Stack back-end / front-end developer with good knowledge about HTML5, CSS3, Bootstrap, Angular JS, MySQL, PHP. Basic knowledge about: JavaScript, JQuery, Laravel, Corel Draw, AutoCAD, SolidWorks, Adobe Flash, Photoshop.</p>
+                    <p>Check out my portfolio below to view my most recent projects.</p>
+                    <div class="skills-icons">
+                        <i class="fab fa-html5"></i>
+                        <i class="fab fa-css3"></i>
+                        <i class="fab fa-angular"></i>
+                        <i class="fab fa-js"></i>
+                        <i class="fab fa-bootstrap"></i>
+                        <i class="fab fa-php"></i>
+                        <i class="fas fa-database"></i>
+						<i class="fab fa-laravel"></i>
+                    </div>
+                    <!--<a href="#" class="btn-primary">View my Work</a>-->
+                </div>
+                <div class="skills-rating">
+                    <p>HTML5 &amp; CSS3</p>
+                    <div class="outer-meter">
+                        <div class="inner-meter html5"></div>
+                    </div>
+                    <p>Bootstrap</p>
+                    <div class="outer-meter">
+                        <div class="inner-meter bootstrap"></div>
+                    </div>
+                    <p>JavaScript &amp; jQuery</p>
+                    <div class="outer-meter">
+                        <div class="inner-meter js-jquery"></div>
+                    </div>
+                    <p>Angular JS</p>
+                    <div class="outer-meter">
+                        <div class="inner-meter angular"></div>
+                    </div>
+                    <p>PHP &amp; MySQL</p>
+                    <div class="outer-meter">
+                        <div class="inner-meter php-mysql"></div>
+                    </div>
+                    <p>Laravel (Learning in progress)</p>
+                    <div class="outer-meter">
+                        <div class="inner-meter laravel"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio">
+            <div class="container">
+                <h2>Recent <span>Projects</span></h2>
+                <div class="thumbnails-wrapper">
+                    <img src="img/newapp-thumb.jpeg"  class="project-thumbnails" data-lity-target="img/newapp.jpeg">
+                    <img src="img/automoto-thunb.jpeg"  class="project-thumbnails" data-lity-target="img/automoto.jpeg">
+                    <img src="img/aero-thumb.jpg"  class="project-thumbnails" data-lity-target="img/1.jpeg">
+                </div>
+            </div>
+        </section>
+		
+		<section id="work">
+		<div class="container">
+		   <div class="workskills-content">
+                    <h2>Technical Skills</h2>
+                    <p class="mg-bot-20">In the most projects I use the XAMP server. Another functions, skills and technics using in the projects are: Knowledge of the MVC (Model-View-Controller) model, JSON, CRUD - Create, Read, Update, Delete, Create data by Factories, Create data by Tinker; </p>
+                    <p>Laravel routes, submit, validation, authentication, blog posts, markdown, middleware, updating, deleting, policy middleware, gate, user uploaded files (Avatar), users following each other, model relationships, pagination, search, chat, email, cache, API authentication (Sanctum).</p>
+                    
+                </div>
+				</div>
+		</section>
+		
+        <section id="footer">
+            <section id="quote">
+                <div class="container">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </section>
+            <section id="copyright">
+                <div class="container">
+                    <p>&copy; <script>document.write(new Date().getFullYear())</script> Oliver Gligorovski<br>
+                    Phone:+389 70 867 113<br>
+               <a href="mailto:oli.gligorovski@gmail.com">E-mail: oli.gligorovski@gmail.com</a></p>
+                    <span class="flex-spacer"></span> <!-- IE WORKAROUND -->
+                    <div class="social-icons">
+						 <a href="https://www.linkedin.com/in/oliver-gligorovski-1580531a1/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                       
+                        <a href="https://twitter.com" target="_blank"><i class="fab fa-x-twitter"></i></i></a>
+						<a href="https://telegram.com" target="_blank"><i class="fab fa-telegram"></i></i></a>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
+        <script type="text/javascript" src="js/wow.min.js"></script>
+        <script src="js/lity.min.js" charset="utf-8"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
